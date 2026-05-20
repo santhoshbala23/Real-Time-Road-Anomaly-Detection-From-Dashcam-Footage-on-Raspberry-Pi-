@@ -1,0 +1,13 @@
+names:
+- obstacle
+- pothole
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: dash-object-detection
+  url: https://universe.roboflow.com/shreekhant/dash-object-detection/dataset/1
+  version: 1
+  workspace: shreekhant
+test: ../test/images
+train: Dash-Object-Detection-1/train/images
+val: Dash-Object-Detection-1/valid/images

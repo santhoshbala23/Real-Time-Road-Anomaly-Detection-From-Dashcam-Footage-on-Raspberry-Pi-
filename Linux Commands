@@ -1,0 +1,5 @@
+pip3 install torch==2.0.1 torchvision==0.15.2 --index-url https://download.pytorch.org/whl/cpu
+python3 -c "import torch; print(torch.__version__)"
+pip3 install pandas seaborn
+nano detect.py
+python3 detect.py --weights best.pt --source 0 --img 416
